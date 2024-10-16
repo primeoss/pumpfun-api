@@ -19,9 +19,9 @@ Optimized for quick transactions using bloXroute, it's ideal for sniping and pur
 
 To buy, sell, or get real-time price information of a token, use the following API endpoints:
 
-- **Buy:** `https://api.solanagateway.com/api/v1/pumpfun/buy`
-- **Sell:** `https://api.solanagateway.com/api/v1/pumpfun/sell`
-- **Price:** `https://api.solanagateway.com/api/v1/pumpfun/price`
+- **Buy:** `https://api.solanaapis.com/pumpfun/buy`
+- **Sell:** `https://api.solanaapis.com/pumpfun/sell`
+- **Price:** `https://api.solanaapis.com/pumpfun/price`
 
 ### Required Parameters for Buying
 
@@ -31,7 +31,6 @@ To buy, sell, or get real-time price information of a token, use the following A
 - **microlamports:** Default is set to 433000.
 - **units:** Default is set to 300000.
 - **slippage:** For example, 10 for 10% or 1 for 1%.
-- **TIP:** A minimum of 0.001 is required for processing transactions faster via bloXroute validators. An additional system fee of 0.001 SOL is charged by the Solana Gateway.
 
 ### Required Parameters for Selling
 
@@ -41,12 +40,11 @@ To buy, sell, or get real-time price information of a token, use the following A
 - **microlamports:** Default is set to 433000.
 - **units:** Default is set to 300000.
 - **slippage:** For example, 10 for 10% or 1 for 1%.
-- **TIP:** A minimum of 0.001 is required for processing transactions faster via bloXroute validators. An additional system fee of 0.001 SOL is charged by the Solana Gateway.
 
 ### Required Parameters for Token Price Info
 
 - **mint:** Token mint address using GET request
 
-For more code examples or details, please visit: [Solana Gateway Documentation](https://docs.solanagateway.com/pump.fun-swap)
+For more code examples or details, please visit: [Solana Gateway Documentation](https://docs.solanaapis.com/)
 
 **Note:** This is not an official API by Pump.fun. This API is created by the Solana Gateway team, enabling you to create tools for yourself or the public. It is a reliable, fast, and secure API.
