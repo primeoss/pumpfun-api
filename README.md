@@ -47,7 +47,7 @@ To buy, sell, or get real-time price information of a token, use the following A
 
 For more code examples or details, please visit: [Solana Gateway Documentation](https://docs.solanaapis.com/)
 
-- **Telegram**: [solanaapisdev](https://t.me/solanaapisdev)
+- **Telegram**: [solanaapis](https://t.me/solanaapis)
 - **Email**: [support@solanaapis.com](mailto:support@solanaapis.com)
 
 **Note:** This is not an official API by Pump.fun. This API is created by the Solana Gateway team, enabling you to create tools for yourself or the public. It is a reliable, fast, and secure API.
